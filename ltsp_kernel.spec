@@ -41,4 +41,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(600,root,root,700)
 %doc README
 %{_ltspdir}/lib/
-%{_ltspdir}/vmlinuz-2.4.19-ltsp-1
+%attr(644,root,root)%{_ltspdir}/vmlinuz-2.4.19-ltsp-1
