@@ -1,12 +1,12 @@
 Summary:	Linux Terminal Server Project - Kernel for terminals
 Summary(pl):	J±dro dla terminali z Linux Terminal Server Project
 Name:		ltsp_kernel
-Version:	3.0.5
+Version:	3.0.13
 Release:	1
 License:	GPL
 Group:		Applications/Network
 Source0:	http://dl.sourceforge.net/ltsp/%{name}-%{version}-i386.tgz
-# Source0-md5:	5c7defaea1de847e6c14f31d9e5302c7
+# Source0-md5:	bee4958ea199069185490663535d7fab
 URL:		http://www.ltsp.org/
 Requires:	ltsp_core
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -27,7 +27,7 @@ Ten pakiet zawiera j±dro Linuksa dla terminali LTSP.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_ltspdir}/lib
 
-cp vmlinuz-2.4.19-ltsp-1 $RPM_BUILD_ROOT%{_ltspdir}
+cp vmlinuz-2.4.24-ltsp-1 $RPM_BUILD_ROOT%{_ltspdir}
 
 cd i386
 cp -r lib/* $RPM_BUILD_ROOT%{_ltspdir}/lib
@@ -38,5 +38,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-%{_ltspdir}/vmlinuz-2.4.19-ltsp-1
+%{_ltspdir}/vmlinuz-2.4.24-ltsp-1
 %{_ltspdir}/lib/modules
