@@ -2,7 +2,7 @@ Summary:	Linux Terminal Server Project - Kernel for terminals
 Summary(pl):	J±dro dla terminali z Linux Terminal Server Project
 Name:		ltsp_kernel
 Version:	3.0.5
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		Applications/Network
 Source0:	http://dl.sourceforge.net/ltsp/%{name}-%{version}-i386.tgz
