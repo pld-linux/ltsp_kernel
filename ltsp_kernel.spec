@@ -38,7 +38,7 @@ cp -r lib/* $RPM_BUILD_ROOT%{_ltspdir}/lib/
 rm -rf $RPM_BUILD_ROOT
 
 %files
-%defattr(600,root,root,700)
+%defattr(644,root,root,755)
 %doc README
-%{_ltspdir}/lib/
+%{_ltspdir}/lib/modules/
 %attr(644,root,root)%{_ltspdir}/vmlinuz-2.4.19-ltsp-1
