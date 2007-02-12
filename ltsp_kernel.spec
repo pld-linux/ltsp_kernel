@@ -2,7 +2,7 @@
 %define		_pver	4.1
 
 Summary:	Linux Terminal Server Project - Kernel for terminals
-Summary(pl):	J±dro dla terminali z Linux Terminal Server Project
+Summary(pl.UTF-8):   JÄ…dro dla terminali z Linux Terminal Server Project
 Name:		ltsp_kernel
 Version:	4.0.1
 Release:	0.1
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This package contains Linux kernel for LTSP terminals.
 
-%description -l pl
-Ten pakiet zawiera j±dro Linuksa dla terminali LTSP.
+%description -l pl.UTF-8
+Ten pakiet zawiera jÄ…dro Linuksa dla terminali LTSP.
 
 %prep
 %setup -q -n ltsp-utils
